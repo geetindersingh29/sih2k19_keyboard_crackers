@@ -1,11 +1,15 @@
 package com.example.geetinder.efficientfarmingapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.geetinder.efficientfarmingapp.AccountActivity.LoginActivity;
+import com.example.geetinder.efficientfarmingapp.AccountActivity.SignupActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -16,7 +20,7 @@ public class buyerfinaldetails extends AppCompatActivity {
 
     TextView oid, bid, sid, pid, startdate, enddate, price, orderstatus;
     private DatabaseReference mItemDatabase;
-
+    private Button btnSignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +43,7 @@ public class buyerfinaldetails extends AppCompatActivity {
         startdate.setText(getIntent().getStringExtra("rtdate"));
         enddate.setText(getIntent().getStringExtra("reqdate"));
         price.setText(getIntent().getStringExtra("amount"));
-        orderstatus.setText(getIntent().getStringExtra("status"));
+        orderstatus.setText("Success");
 
         mItemDatabase = FirebaseDatabase.getInstance().getReference("users");
         BusyWait.showBusyWait(buyerfinaldetails.this);
@@ -92,6 +96,14 @@ public class buyerfinaldetails extends AppCompatActivity {
             }
         });
 
+
+        btnSignup = (Button) findViewById(R.id.btn_ok);
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(buyerfinaldetails.this, buyorsell.class));
+            }
+        });
 
         /*
         order.setText();

@@ -62,7 +62,7 @@ public class buyersecond extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot looping : dataSnapshot.getChildren()) {
                     final Item itemref = looping.getValue(Item.class);
-                    arraylistitems.add(itemref);
+                        arraylistitems.add(itemref);
                 }
                 mAdapter = new ItemAdapter(buyersecond.this, arraylistitems);
                 itemlist.setAdapter(mAdapter);

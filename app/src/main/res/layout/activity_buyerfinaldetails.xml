@@ -229,6 +229,18 @@
 
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/button_rounded_bg"
+        android:text="OK"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+
    </LinearLayout>
 
 

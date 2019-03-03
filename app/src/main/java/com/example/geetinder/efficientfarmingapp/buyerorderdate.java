@@ -288,7 +288,7 @@ public class buyerorderdate extends AppCompatActivity {
                     startActivity(intent1);*/
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(buyerorderdate.this);
-                    builder.setMessage("product uploaded successfully.")
+                    builder.setMessage("Your Order is succesfully created.")
                             .setCancelable(false)
 
                             .setPositiveButton("Proceed", new DialogInterface.OnClickListener() {
@@ -308,7 +308,7 @@ public class buyerorderdate extends AppCompatActivity {
                             });
 
                     AlertDialog reset = builder.create();
-                    reset.setTitle("sucess");
+                    reset.setTitle("Success");
                     reset.show();
 
 
