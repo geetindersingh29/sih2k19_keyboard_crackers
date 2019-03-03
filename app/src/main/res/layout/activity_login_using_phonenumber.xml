@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="180dp"
+            android:contentDescription=""
+            android:maxHeight="180dp"
+            android:src="@drawable/logo_new"
+            tools:ignore="ContentDescription" />
+
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_number"
+            android:autofillHints="@string/hint_number"
+            android:inputType="textPhonetic"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login"
+            android:background="@drawable/order_radius_name"
+            android:drawableStart="@drawable/ic_action_name"/>
+
+        <Button
+            android:id="@+id/btn_send_otp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded_bg"
+            android:onClick="@sucesslog"
+            android:text="@string/btn_otp"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/fill_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:hint="@string/hint_otp"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_confirm_otp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded_bg"
+            android:onClick="@sucesslog"
+            android:text="@string/btn_s_otp"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="162dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">efficientfarmingapp</string>
+    <string name="emailone">ईमेल</string>
+    <string name="password">पारण शब्द</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="crtacc">खाता बनाएं</string>
+    <string name="btn_forgot_password">क्या आप पासवर्ड भूल गए?</string>
+
+
+    <string name="Slide">स्लाइड -></string>
+    <string name="buyerone">क्रेता</string>
+    <string name="sellerone">विक्रेता</string>
+    <string name="chnglang">भाषा बदलो</string>
+    <string name="aware">जागरूकता गाइड</string>
+
+
+    <string name="reqdate">आवश्यक तारीख</string>
+    <string name="retdate">वापसी की तिथि</string>
+    <string name="Deposit">जमा</string>
+    <string name="LabourRequired">श्रम की आवश्यकता है</string>
+    <string name="No">नहीं</string>
+    <string name="Yes">हाँ</string>
+    <string name="price">मूल्य</string>
+    <string name="proceedpay">चुकाने के लिए कार्रवाई शुरू करो</string>
+    <string name="pay">भुगतान का प्रकार</string>
+    <string-array name="payarray">
+        <item>डिलवरी पर नकदी</item>
+        <item>पेटीएम </item>
+        <item>क्रेडिट / डेबिट कार्ड</item>
+    </string-array>
+
+
+
+    <string name="Search">यहाँ ढूँढे</string>
+
+
+    <string name="hint_password">पारण शब्द</string>
+    <string name="btn_login">लॉग इन करें</string>
+    <string name="loginusingphn">फोन का उपयोग कर लॉगिन करें</string>
+    <string name="createacc">खाता बनाएं</string>
+
+
+
+    <string name="nameone">नाम</string>
+    <string name="action_sign_in_short">रजिस्टर</string>
+    <string name="btn_link_to_login">पहले से पंजीकृत। मुझे लॉगिन करें!</string>
+
+
+    <string name="buyer">क्रेता</string>
+    <string name="seller">विक्रेता</string>
+    <string name="proceed">बढ़ना</string>
+
+
+
+
+
+    <string name="Type">प्रकार</string>
+    <string name="Company">कंपनी का नाम</string>
+    <string name="Model">मॉडल संख्या</string>
+    <string name="Price">मूल्य प्रति दिन</string>
+    <string name="Next">आगामी</string>
+
+
+    <string name="Required">आवश्यक तारीख</string>
+    <string name="Return">वापसी की तिथि</string>
+    <string name="Labour">श्रम की आवश्यकता है</string>
+    <string name="Priceone">मूल्य</string>
+    <string name="Mode">भुगतान का प्रकार</string>
+    <string name="Proceed">चुकाने के लिए कार्रवाई शुरू करो</string>
+
+
+    <string name="Card">कार्ड नंबर</string>
+    <string name="CardHolder">कार्डधारक का नाम</string>
+    <string name="Expiry">समाप्ति तिथि</string>
+    <string name="CVV">सीवीवी</string>
+    <string name="Pay">वेतन</string>
+
+
+    <string name="hint_email">ईमेल</string>
+    <string name="btn_reset_password">पासवर्ड रीसेट</string>
+    <string name="btn">वापस</string>
+
+
+    <string name="ItemDetails">आइटम विवरण</string>
+
+
+    <string name="Specifications">उत्पाद की विशिष्टताओं</string>
+    <string name="Companyname">कंपनी का नाम</string>
+    <string name="Modelnum">मॉडल संख्या</string>
+    <string name="Priceperday">मूल्य प्रति दिन</string>
+    <string name="Upload">अपलोड</string>
+
+
+    <string name="AddtheProduct">उत्पाद जोड़ें</string>
+    <string name="AddtheImage">छवि जोड़ें</string>
+    <string name="Choose">चुनें</string>
+
+    <string name="ChangeLanguage">भाषा बदलो</string>
+
+
+
+</resources>

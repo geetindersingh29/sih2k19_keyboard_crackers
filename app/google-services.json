@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1063651386762",
+    "firebase_url": "https://efficientfarmingapp-5160e.firebaseio.com",
+    "project_id": "efficientfarmingapp-5160e",
+    "storage_bucket": "efficientfarmingapp-5160e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063651386762:android:8b2738d035aba8ae",
+        "android_client_info": {
+          "package_name": "com.example.geetinder.efficientfarmingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063651386762-r0j8ei8837m637iccjpbb3phsccgdv7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geetinder.efficientfarmingapp",
+            "certificate_hash": "2da725441da589f162548f57840e97aefacafadb"
+          }
+        },
+        {
+          "client_id": "1063651386762-dv2p886dr9uh1smrp4m05usdqolcdlp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZEm8Eh1XVx03YhnDf33xOYsvTplApiik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063651386762-dv2p886dr9uh1smrp4m05usdqolcdlp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

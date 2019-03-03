@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/border_seller"
+    android:layout_marginTop="50dp"
+tools:context=".seller_product">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/order_oid"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/order_pid"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/type_seller"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/order_bid"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_toEndOf="@+id/ppd"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/order_sid"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="119dp"
+        android:layout_toEndOf="@+id/ppd"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/order_startdate"
+        android:layout_width="70dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:layout_toEndOf="@+id/ppd"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="From:" />
+
+    <TextView
+        android:id="@+id/order_enddate"
+        android:layout_width="70dp"
+        android:layout_height="31dp"
+        android:layout_alignTop="@+id/fromdate"
+        android:layout_toEndOf="@+id/fromdate"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/order_amount"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fromdate"
+        android:layout_marginBottom="-190dp"
+        android:layout_toEndOf="@+id/ppd"
+        android:text="FROM"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/order_buyerrating"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fromdate"
+        android:layout_marginBottom="-190dp"
+        android:layout_toEndOf="@+id/fromdate"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="To"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_sellerrating"
+        android:layout_width="179dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="96dp"
+        android:layout_toEndOf="@+id/ppd"
+        android:text="DESCRIPTION"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/order_productrating"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TYPE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/order_status"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TYPE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

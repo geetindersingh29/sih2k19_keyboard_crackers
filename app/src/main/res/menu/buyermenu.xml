@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Orders"
+        android:id="@+id/order"></item>
+
+    <item android:title="Logout"
+        android:id="@+id/edit_account"></item>
+    <item android:id="@+id/notify"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        android:title="Technologies"
+        app:showAsAction="ifRoom"></item>
+</menu>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".buyerorderdate"
+    android:background="@drawable/farmsix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/reqdate"
+            android:textColor="#010203"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/requireddate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:hint="eg: 01/10/2019"
+            android:paddingLeft="4dp"
+            android:textColor="#010203"
+            android:background="@drawable/edittextstyle"
+
+
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/retdate"
+            android:textColor="#010203"
+            android:textStyle="bold"
+
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/returndate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:hint="eg: 02/27/2019"
+            android:paddingLeft="4dp"
+            android:textColor="#010203"
+            android:focusable="false"
+            android:background="@drawable/edittextstyle"
+
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/Deposit"
+            android:textColor="#010203"
+            android:textStyle="bold"
+
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/deposit"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:paddingLeft="4dp"
+            android:textColor="#010203"
+            android:focusable="false"
+            android:background="@drawable/edittextstyle"
+
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/LabourRequired"
+            android:textColor="#010203"
+            android:textStyle="bold"
+
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/No"
+                    android:layout_weight="1"
+                    android:onClick="check"
+                    android:checked="true"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radio_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Yes"
+                    android:layout_weight="1"
+                    android:onClick="check"
+                    android:textStyle="bold"
+                    />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/price"
+            android:textColor="#010203"
+            android:textStyle="bold"
+
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/price_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:paddingLeft="4dp"
+            android:textColor="#010203"
+            android:background="@drawable/edittextstyle"
+            android:textSize="20dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:textSize="30dp"
+            android:textColor="#95120a"
+            android:textStyle="italic"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Spinner
+            android:id="@+id/paymode"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:prompt="@string/pay"
+            android:background="@drawable/spinnerborder"
+            >
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/proceedpay"
+            android:textColor="@color/white"
+            android:onClick="confirmInput"
+            android:background="@drawable/myborder"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

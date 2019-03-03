@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">efficientfarmingapp</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="loginusingphn">Login using Phone</string>
+    <string name="createacc">Create Account</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+
+
+    <string name="reqdate">Required Date</string>
+    <string name="retdate">Return Date</string>
+    <string name="Deposit">Deposit</string>
+    <string name="LabourRequired">Labour Required</string>
+    <string name="No">NO</string>
+    <string name="Yes">YES</string>
+    <string name="price">Price</string>
+    <string name="pay">Mode Of Payment</string>
+    <string name="proceedpay">Proceed to Pay</string>
+
+    <string name="Slide">Slide---></string>
+    <string name="buyerone">Buyer</string>
+    <string name="sellerone">Seller</string>
+    <string name="chnglang">Change Language</string>
+    <string name="aware">Awareness Guide</string>
+    <string name="Search">Search</string>
+
+    <string name="paychoose">Mode of Payment</string>
+
+    <string name="action_sign_in_short">Register</string>
+
+    <string name="email">Email</string>
+    <string name="proceed">Proceed</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="change_email">Change Email</string>
+
+    <string name="hint_city">Enter City</string>
+
+    <string name="hint_state">Enter State</string>
+
+    <string name="change_password">Change Password</string>
+
+    <string name="send_password_reset_email">Send Password reset email</string>
+
+    <string name="remove_user">Remove user</string>
+
+    <string name="btn_proceed">PROCEED</string>
+
+    <string name="Name">Name</string>
+
+    <string name="hint_otp">Fill OTP</string>
+
+    <string name="btn_s_otp">Confirm OTP</string>
+
+    <string name="phone_number">phone number</string>
+
+    <string name="new_pass">New Password</string>
+
+    <string name="btn_otp">Send OTP</string>
+
+    <string name="title_activity_profile">Firebase</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="hint_number">Phone Number</string>
+
+    <string name="hint_name">Fullname</string>
+
+    <string name="register">REGISTER</string>
+
+    <string name="prompt_password">Please enter your password</string>
+
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+
+    <string name="btn_reset_password">Reset Password</string>
+
+
+    -
+    <string name="btn_back">
+
+-<![CDATA[<< Back]]>
+</string>
+
+    <string name="hint_new_email">New Email</string>
+
+    <string name="btn_change">Change</string>
+
+    <string name="btn_send">Send</string>
+
+    <string name="btn_remove">Remove</string>
+
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="lbl_forgot_password">Forgot password?</string>
+
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="email_id">Email ID</string>
+
+    <string name="productchoose">Choose the product</string>
+
+
+    -
+    <string-array name="productarray">
+
+        <item>Tractor</item>
+
+        <item>Plow</item>
+
+        <item>Harrow</item>
+
+        <item>Combine Harvester</item>
+
+        <item>Beller</item>
+
+        <item>Planter</item>
+
+    </string-array>
+
+
+    <string-array name="payarray">
+        <item>Cash on delivery</item>
+        <item>Paytm</item>
+        <item>Credit/Debit card</item>
+    </string-array>
+
+
+    <string name="add">Address</string>
+    <string name="contact">Contact No</string>
+    <string name="r11">Nanndi Foundation</string>
+    <string name="r12">
+        502, Trendset Towers, Road No 2\n
+        Banjara Hills, Hyderabad – 500 034\n
+        Andhra Pradesh, India
+    </string>
+    <string name="r13">
+        Tel: 91-40-23556491/92\n
+        Fax: 91-40-23556537\n
+        Email: info@naandi.org\n
+        Website: www.naandi.org
+    </string>
+    <string name="r21">ASA\n(Action For Social Development)</string>
+    <string name="r22">
+        E-5/A Girish Kunj, \nAbove State Bank of India, (Shahpura Branch),\n Arera colony, Bhopal,
+Madhya Pradesh-462016\n, India
+    </string>
+    <string name="r23">Tel: 91-755-2427369,4057926\n
+Fax: 91-755-4057925 \nEmail:info@asabhopal.org\n
+Website:www.asaindia.org</string>
+    <string name="r31">PRADAN\n(Professional Assistance for Development Action)</string>
+    <string name="r32">E-1/A, Kailash Colony\n
+Ground Floor and Basement\n
+Kailash Colony
+New Delhi - 110 048</string>
+    <string name="r33">
+        Tel: 4040 7700, 2924 8826 to 2924 8832\n
+E-mail: headoffice@pradan.net\n
+Website: www.pradan.net
+    </string>
+    <string name="r41">SRIJAN\n(Self-Reliant Initiative through \nJoint Action)</string>
+    <string name="r42">
+        4, Community Shopping Centre, \nFirst Floor, Anupam Apartments
+Mehrauli\n Badarpur Road, Saidullajab, \nNew Delhi-110068
+    </string>
+    <string name="r43">
+        Tel: 011-41664521/29536411\n
+Fax: 011-41664521\n
+Email:delhi@srijanindia.org\n
+Website: srijanindia.org
+    </string>
+    <string name="r51">ISAP\n(India Society of Agri-Business Professionals)</string>
+    <string name="r52">
+        23, Zamrudpur Community Centre\n
+Kailash Colony Extension\n
+New Delhi -110048
+    </string>
+    <string name="r53">
+        Tel: 91-11-43154100\n
+Fax: 91-11-41731674\n
+E-mail:isapho@isapindia.org\n
+Website: www.isapindia.org
+    </string>
+    <string name="r61">CARD\n(Centre for Advanced Research \nand Development)</string>
+    <string name="r62">H-II/195, Arvind Vihar, \nBaghmugalia,
+Bhopal, Madhya Pradesh \n(India)
+Pin- 462043</string>
+    <string name="r63">Tel:91-0755 - 2481234\nFax:91-0755 - 2481737\nmail:cardindiabhopal@gmail.com
+\nWebsite: cardindia.net</string>
+    <string name="r71">Aga Khan Foundation (India)</string>
+    <string name="r72">Sarojini House, 2nd floor\n
+6, Bhagwan Dass Road\n
+New Delhi 110001</string>
+    <string name="r73">Tel: (11) 23782173\n
+Fax: (11) 23782174\n
+E-mail:akfisp.2014@gmail.com
+</string>
+    <string name="r81">DHAN Foundation\n(Development of Humane Action)</string>
+    <string name="r82">Kennet Cross Road\n
+Near Seventh Day School\n
+1A, Vaidyanathapuram East\n
+Madurai 625 016, Tamil Nadu, INDIA</string>
+    <string name="r83">Tel : +91-452-2610794, 2610805\n Fax : +91-452-2602247 \nEmail:dhanfoundation@dhan.org
+\nWebsite:http://www.dhan.org</string>
+    <string name="r91">GREENPEACE</string>
+    <string name="r92">A-23,Second floor,\n
+Green park, (near Aurbindo Market)\n
+New Delhi 110016</string>
+    <string name="r93">Tel : 91-11-66665000\n
+Fax : 91-11-66665010\n
+Website:http://www.greenpeace.org</string>
+    <string name="r101">
+        Digital GREEN
+    </string>
+    <string name="r102">D6 and E6, Clarion Collection,\n Shaheed Jeet Singh Marg, \nNew Delhi 110016</string>
+    <string name="r103">Tel : 91 11 41881037\n
+Fax : 91 11 41881038\n
+Website: http://www.digitalgreen.org</string>
+    <string name="app_name_1">AWGS</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_machines_tech">Machines_tech</string>
+    <string name="title_activity_machine_tech">Machine_tech</string>
+    <string name="title_activity_loan_activity">Loan_activity</string>
+    <string name="title_activity_soil_tech">soil_tech</string>
+    <!--<string name="app_name">machines_gs</string>-->
+    <string name="drone">Drone Farming Technology</string>
+    <string name="drone_theory">
+        "drones—have been used commercially since the early 1980s."
+        Today, however, practical applications for drones are expanding faster than ever in a variety of industries, thanks to robust investments and the relaxing of some regulations governing their use. Responding to the rapidly evolving technology, companies are creating new business and operating models for UAVs.
+The total addressable value of drone-powered solutions in all applicable industries is significant—more than $127 billion, according to a recent PwC analysis. Among the most promising areas is agriculture, where drones offer the potential for addressing several major challenges. With the world’s population projected to reach 9 billion people by 2050, experts expect agricultural consumption to increase by nearly 70 percent over the same time period. In addition, extreme weather events are on the rise, creating additional obstacles to productivity.
+Agricultural producers must embrace revolutionary strategies for producing food, increasing productivity, and making sustainability a priority. Drones are part of the solution, along with closer collaboration between governments, technology leaders, and industry.
+Six Options for Agricultural Drones
+Drone technology will give the agriculture industry a high-technology makeover, with planning and strategy based on real-time data gathering and processing. PwC estimates the market for drone-powered solutions in agriculture at $32.4 billion. Following are six ways aerial and ground-based drones will be used throughout the crop cycle:
+1. Soil and field analysis: Drones can be instrumental at the start of the crop cycle. They produce precise 3-D maps for early soil analysis, useful in planning seed planting patterns. After planting, drone-driven soil analysis provides data for irrigation and nitrogen-level management.
+2. Planting: Startups have created drone-planting systems that achieve an uptake rate of 75 percent and decrease planting costs by 85 percent. These systems shoot pods with seeds and plant nutrients into the soil, providing the plant all the nutrients necessary to sustain life.
+3. Crop spraying: Distance-measuring equipment—ultrasonic echoing and lasers such as those used in the light-detection and ranging, or LiDAR, method—enables a drone to adjust altitude as the topography and geography vary, and thus avoid collisions. Consequently, drones can scan the ground and spray the correct amount of liquid, modulating distance from the ground and spraying in real time for even coverage. The result: increased efficiency with a reduction of in the amount of chemicals penetrating into groundwater. In fact, experts estimate that aerial spraying can be completed up to five times faster with drones than with traditional machinery.
+4. Crop monitoring: Vast fields and low efficiency in crop monitoring together create farming’s largest obstacle. Monitoring challenges are exacerbated by increasingly unpredictable weather conditions, which drive risk and field maintenance costs. Previously, satellite imagery offered the most advanced form of monitoring. But there were drawbacks. Images had to be ordered in advance, could be taken only once a day, and were imprecise. Further, services were extremely costly and the images’ quality typically suffered on certain days. Today, time-series animations can show the precise development of a crop and reveal production inefficiencies, enabling better crop management.
+5. Irrigation: Drones with hyperspectral, multispectral, or thermal sensors can identify which parts of a field are dry or need improvements. Additionally, once the crop is growing, drones allow the calculation of the vegetation index, which describes the relative density and health of the crop, and show the heat signature, the amount of energy or heat the crop emits.
+6. Health assessment: It’s essential to assess crop health and spot bacterial or fungal infections on trees. By scanning a crop using both visible and near-infrared light, drone-carried devices can identify which plants reflect different amounts of green light and NIR light. This information can produce multispectral images that track changes in plants and indicate their health. A speedy response can save an entire orchard. In addition, as soon as a sickness is discovered, farmers can apply and monitor remedies more precisely. These two possibilities increase a plant’s ability to overcome disease. And in the case of crop failure, the farmer will be able to document losses more efficiently for insurance claims.
+
+    https://www.agrifarming.in/drone-farming-drone-technology-in-agriculture/
+
+    </string>
+
+    <string name="robot">Agricultural robots advantages and disadvantages</string>
+    <string name="robot_theory">
+        The agricultural robotics is the logical proliferation of the automation technology into the bio-systems such as the agriculture, the forestry, the green house, the horticulture and fisheries, It is replacing the common techniques to perform the same tasks with high efficiency.
+        The agricultural robots are the robots deployed for the agricultural purposes, The main area of application of robots in the agriculture today is at the harvesting stage, the possible emerging applications are the robots or the drones for the weed control.
+Applying the automation to the agriculture help create the several advancements to the industry while helping the farmers save the money and the time, Some of the scientist contributions are the mobile robot, the flying robot, the forester robot, Demeter that are exclusively used for the agriculture.
+
+Even in the developing countries, the farmers are interested in using the robots to tend the fields of crops, pick the fruit or even maintain the animal, The agriculture robots should have the human interaction to compensate for programming complexity issues.
+The mechanical design consists of the end effector, manipulator and gripper,  the design of the manipulator includes the task, the economic efficiency, and the required motions, The end effector in the agricultural robot is the device found at the end of the robotic arm, and it is used for various agricultural operations.
+        Agricultural robots disadvantages\n
+It costs a lot of money to make or buy the robots, They need the maintenance to keep them running, The farmers can lose their jobs, The robots can change the culture / the emotional appeal of the agriculture and the energy issues are costly.
+
+
+        https://www.online-sciences.com/robotics/agricultural-robots-advantages-and-disadvantages/
+    </string>
+    <string name="harvest">Top five modern harvesting machines</string>
+    <string name="harvest_theory">
+        Modern farming technology is used to improve the wide types of production practices employed by our farmers. It makes use of hybrid seeds of selected variety of a single crop, technologically advanced equipment and lots of energy subsidies in the form of irrigation water, fertilizers and pesticides. The most common types of equipment and machinery used on farms include tractors, balers, combines, plows, mowers, planters and sprayers.
+Farming is no longer a small scale production, but rather one that is done with huge machines over thousands of hectares. This efficiency boost means that the world has access to any food it wants at any time. 
+Let\'s take a look at 5 modern machines that dramatically increased the efficiency and production of farming operations across the globe.
+        1. Small-scale Potato Harvester
+This machine digs potato from the soil by separating soil from the roots. It functions on small scale but separates the soil quickly to reduce the problems in harvesting of potato.  Even though the picture depicts a small-scale machine, the same technology is used in tractor-towed rigs to harvest potatoes at an even greater scale.
+        2. Automatic In row weeder
+Weeding is an important practice in agriculture. Growth of weeds can interrupt the growth of crops which will eventually lead to the unavailability of nutrients. This machine quickly and effectively tears up weeds without worrying about hurting the original crops. Letting your fields get overgrown can allow weeds and invasive species to choke out your cash crop and leave the farmer with pennies. Pesticides and weedicides are common, but many take issue with the possibly harmful chemicals hidden within.
+3. Automatic cow milking machine
+Cow in our Indian society is used for milk and many other products are made out of it. This way it is important but if there is an easy way out to milk cow through machine; it can enhance the productivity in agriculture ultimately by increasing the milk production of the country
+        4. Carrot harvester and separator
+This machine is no different from the potato harvester but provides an ease in harvesting carrot from the ground along with roots which are digged deep inside. The machine is a boon in harvesting as it can emulsify the rate at which harvesting of carrot can be done.
+5. Robotic lettuce harvester
+HOOVER XL is a powerful machine to aspirate the residues of crop and leaves on the ground, designed for fourth range producers. With 4 steering wheels, the aspirator is fitted with a side shifting cutting bars thus reducing the problems in harvesting lettuce.
+These machines inevitably enhance the production in some or the other way thus reducing the manpower and automatically enhancing the economy of the countries. No matter how advanced they are but they can be the future of Indian agriculture in their own innovative ways.
+
+        https://krishijagran.com/farm-mechanization/top-five-modern-harvesting-machines/
+
+    </string>
+
+
+    <string name="tractor">Top 7 Tractor Brands in India </string>
+    <string name="tractor_theory">
+        The tractor is one of the best utility vehicles of all times, particularly in India. Agriculture, a major source of livelihood in the country uses tractors for farm mechanization. Though the Indian tractor industry is young today it has emerged as one of the largest markets in the world (exclusive of sub 20 hp belt driven tractors used in Beijing), accounting 1/3rd of the global production.
+Today in this article we will be discussing the top 7 tractor manufacturers that provide tractors under 70 horsepower (HP):
+Mahindra and Mahindra
+For a common man or farmer, the very first name that can come to mind is ‘Mahindra’. Over the years, the Mahindra Tractors has emerged as one of the top manufacturers of agricultural and farm equipment, including tractors. Mahindra and Mahindra Company was started by J.C Mahindra and K.C Mahindra. Mahindra Tractors are popular because of their ability to give high performance with added strength as well as durability.
+They are available from 20 HP to 50 HP Plus range and some of them are:
+Mahindra YUVRAJ 215 NXT ( 20HP)
+Mahindra JIVO 245 DI 4WD (21 - 30 HP)
+Mahindra YUVO 265 DI (31 - 40 HP)
+Mahindra YUVO 475 DI (41 - 50 HP)
+Mahindra 555 Power Plus (50 HP Plus)
+
+    TAFE - Tractor and Farm Equipment Ltd
+TAFE was founded by R. Anantha Ramakrishnan in 1960 and today it is the 2nd largest selling tractor maker in India. All the types of tractors under the TAFE brand are strong and durable as it is made with superior technology. Some of the TAFE tractors less than 70 HP are:
+30 DI Orchard Plus 2WD (30 HP)
+5900 DI 2WD (56 - 60 HP)
+
+    https://krishijagran.com/farm-mechanization/top-7-tractor-brands-in-india/
+    </string>
+
+    <string name="drone_pesticides">Drones for spraying pesticides </string>
+    <string name="drone_pesticides_theory">
+        Spraying pesticides by using drones is the innovative technique used in the field of agriculture. Drone technology based unmanned aerial vehicle (UAV) has the ability for smooth scouting over farm fields, gathering precise information and transmitting the data on real time basis. This capability could be used for the benefit of farming sector at regional, local scale for assessing land and crop health; extent, type and severity of damage besides issuing forewarning, post-event management and settlement of compensation under crop insurance schemes.
+Drones are used to spray pesticides to prevent the spread of plant diseases. By using the drone pesticides can be sprayed on the farmland in just half an hour. The drone also helps to check the number of fruits ready to be plucked from each tree.
+    Farmers would know the exact location where the fruits are ready for the harvest and number of fruits in each tree. This facility shall save the time of farmers and improve the efficiency in harvesting. The drone can be used in any horticulture and floriculture farms. Drones help to monitor the diseases of longer trees like coconut farms using high definition cameras fixed to it, where, it is difficult for humans to climb the tree. The drones can easily sprinkle pesticides on these trees. Drones can monitor the crop quality with thermal sensors. By integrating advanced image processing units to the drones, they can make miracles in agro industry.
+
+        https://krishijagran.com/farm-mechanization/drones-for-spraying-pesticides/
+    </string>
+
+    <string name="soil">Types of Soil and Crops Grown in India</string>
+    <string name="soil_theory">
+        The nation of India extends more than 1 million square miles, most of which is under use by humans. Sixty-one percent of India\'s land surface is used for agriculture, according to the Gapminder Foundation. With such a large area under cultivation, farmers have had to adapt to a wide range of soil types and environments. Indian agriculture takes place anywhere from flood plains to deserts and mountains.
+        Alluvial Soils
+This type of soil is common in Northern India, particularly in the delta regions. Alluvial soils are deposited by rivers and are rich in some nutrients (particularly potash and humus), but are lacking in nitrogen and phosphorous. They tend to be sandier and quicker-draining than many other soils. Rice, wheat, sugarcane, cotton and jute all grow well in these soils.
+Black Soils
+Black soil gets its color from various salts or from humus. It contains a large amount of clay, but is sandy as well in hillier regions. This soil contains moderate amounts of phosphorous but is poor in nitrogen. This type of soil is also used for rice, wheat, sugarcane and cotton. It is additionally used to grow groundnut, millet and oilseeds.
+Desert Soils
+Desert soils are sandy and dry. They do contain nitrogen, but are suitable for agriculture only if there is a sufficient water supply. Generally only drought-resistant crops such as barley and millet can grow in this type of soil.
+Laterite Soils
+These soils are found in areas of India with heavy rainfall, particularly near the coasts. It is an acidic soil and is rich in iron, which gives the soil a somewhat red appearance. It is used to grow more tropical crops such as cashew, rubber, coconut, tea and coffee.
+Mountain Soils
+These soils are found in the Himalayas and contain significant amounts of organic matter. They are somewhat acidic, but suitable for growing tea, coffee, spices and many types of tropical fruits.
+Red and Yellow Soils
+Red and yellow soils get their names from the very large amounts of iron oxide present in them. They are sandy and somewhat acidic, and are also low in nitrogen and phosphorous. Despite this, red and yellow soils are used to grow rice, wheat, sugarcane, millet, groundnut, ragi and potato.
+Other Soils
+There are various other types of soil in India, but none of them is suitable for growing crops. Saline and alkaline soils are too low in nutrients and too high in salt for productive agriculture. Marsh soils are likewise unfit, but mainly because of their high acidity.
+
+        https://www.gardenguides.com/128581-types-soil-crops-grown-india.html
+    </string>
+
+    <string name="manure">Organic Manure Production Guid</string>
+    <string name="manure_theory">
+        Organic Manure. Introduction of Organic Manure Production:-Well, everybody is very conscious about health and the food they are consuming. Due to the fact that most of the farming business became commercial, agricultural products are produced in short period of time by injecting lots of chemicals and fertilizers into the soil
+
+        https://www.agrifarming.in/organic-manure-production-guide/
+    </string>
+    <string name="organicferti">The Debate over Organic vs. Chemical Fertilizers</string>
+    <string name="organicferti_theory">
+        Ask most any gardener whether they prefer organic or chemical fertilizer, and chances are you’ll spark a lively debate. However, if you could ask your plants the same question, you’d find out that at the most basic level, they really can’t tell the difference – nutrients are nutrients.
+
+Yet there ARE significant differences between organic and chemical fertilizers in terms of nutrient availability and the long-term effects on soil, plants, and the environment. So how does a conscientious gardener decide?
+Terminology
+To begin with, the terminology can be confusing, since labels and gardeners freely throw around words like organic, natural, inorganic, chemical, synthetic, artificial, and manufactured. The good news is that the choice can be reduced to either organic or chemical fertilizers.
+        Organic Fertilizer
+
+The words “organic” or “natural” in this case simply means that the product is only minimally processed, and the nutrients remain bound up in their natural forms, rather than being extracted and refined. In the case of fertilizer, “organic” does NOT refer to the standards of processing associated with food.
+Organic fertilizer is usually made from plant or animal waste or powdered minerals. Examples include manure and compost, as well as bone and cottonseed meal. They are usually sold as “soil conditioners” rather than as fertilizer, because the nutrient ratios are difficult to guarantee. Organic fertilizers may be processed in a factory, or, in the case of manure and compost, at a farm.
+There is also a growing selection of more highly processed products now available, with labeled analysis of nutrients and contents. For example, Scotts Miracle-Gro Organic Choice Plant Food is a manufactured product composed entirely of chicken litter and ground up feathers, with an N-P-K ratio of 7-1-2. Garden Safe Organic Plant Food is made of poultry manure with a label very similar to chemical fertilizers.
+        Advantages of Organic Fertilizer:
+
+In addition to releasing nutrients, as organic fertilizers break down, they improve the structure of the soil and increase its ability to hold water and nutrients. Over time, organic fertilizers will make your soil–and plants–healthy and strong.
+
+Since they are the ultimate slow-release fertilizers, it’s very difficult to over fertilize (and harm) your plants.
+
+There’s little to no risk of toxic buildups of chemicals and salts that can be deadly to plants.
+
+Organic fertilizers are renewable, biodegradable, sustainable, and environmentally friendly.
+
+Although rather expensive in packages, you can make your own organic fertilizer by composting or find inexpensive sources—such as local dairy farms—that may sell composted manure.
+        Disadvantages of Organic Fertilizer:
+
+Microorganisms are required to break down and release nutrients into the soil. Since they need warmth and moisture to do their job, the effectiveness of organic fertilizer is limited seasonally. The good news is that these microorganisms obtain energy from decaying plant and animal matter, so an application of organic fertilizer provides a complete package of nutrients for your soil.
+
+Organic fertilizers break down according to nature’s rules, so they may not release nutrients as soon as you need them. You have to be patient – you won’t see improvement overnight. In fact, you may actually see a deficiency in your plants during the first couple of months until the first application breaks down. Hang in there! You’ll most definitely be rewarded.
+
+Nutrient ratios are often unknown, and the overall percentage is lower than chemical fertilizers. However, some organic products are actually higher in certain nutrients.
+
+    https://www.todayshomeowner.com/debate-over-organic-chemical-fertilizers/
+    </string>
+
+    <string name="credit">Kisan Credit Card For Farmers</string>
+    <string name="credit_theory">
+        What is Kisan credit card?
+Kisan Credit Card is a bespoke credit card product offered exclusively to the farmers in India.Thisscheme was introduced in the year 1998 by the government of India, wherein apart from the government, the Reserve Bank of India (RBI) and NABARD are the key partners in implementing the scheme. Since the inception, this credit card has materialized as a ground-breaking timely and hassle-free credit delivery mechanism towards achieving the credit crunch of the farmers in India.
+With few impediments in the erstwhile implementation plan, Government has taken several steps and hence constituted a Working committee under T. M. Bhasin, CMD of Indian Bank with the intention of assessingthis unique product and recommend changes to be made in the scheme to make it hassle free financial tool.This Credit Card scheme aims to provide sufficient, opportune and money-spinning credit facility from the banking system to suit the needs of farmers with respect to cultivation and other allied needs. Farmers with these cards can purchase necessary agricultural inputs as well as withdraw cash from ATMs for their personal needs.
+    Kisan credit cards now days are offered through a cosmic institutional credit support which involves various Commercial Banks, Cooperatives and RRBs. The product has set asidethe time-consuming credit screening processes of banks and allows the farmers to avail cash credit easily. In the event of any bad crop season, the repayment can be carried overto another term and if required the repayments can be extended further up to 4 years. The cardsare generally valid for 5 years and subject to renewal on an annual basis. Under this credit card facility, the farmer can withdraw using withdrawal slips from his account, perform ATMwithdrawal using the credit card or the passbook issued under his name.
+Features of Kisan Credit Cards
+Kisan credit cards are valid for a period between 3 years to maximum 5 years
+The loan limit and working capital are subject to annual revision.
+The credit Limit of is based on the quantum of finance.
+The repayment period in Kisan credit card is up to maximum 12 months.
+The card can be operated at branches using cheque facility or withdrawal slip or at ATM or POS (point of
+
+    https://www.paisabazaar.com/credit-card/kisan-credit-card-in-india/
+
+    </string>
+
+    <string name="liquid">Application Of Liquid Fertilizers</string>
+    <string name="liquid_theory">
+        Application Of liquid fertilizers
+It includes:
+1. Starter solutions: Solutions of fertilizers, generally consisting of N-P2O5 – K2O in the ratio of 1:2:1 and 1:1:2 are applied to young vegetable plants at the time of transplanting. It helps in the rapid establishment of seedlings and quick early growth.
+Advantages:
+i) The nutrients reach the plant roots immediately and
+ii) The solution is sufficiently diluted so that it does not inhibit growth.
+Disadvantages:
+i) Extra labour is necessary and
+ii) Fixation of phosphate is greater.
+2. Foliar application: It refers to the spraying of leaves of growing plants with suitable fertilizers solutions. These solutions may be prepared in a low concentration to supply any one plant nutrients. It is preferable to soil application when:
+i) The soil conditions or a competitive crop makes nutrients from soil dressing unavailable, like late application of N to crops raised under Rainfed condition,
+ii) An accurately time response to fertilizers is required. E.g.: change in the reason,
+iii) Routine applications are made of insecticidal or pesticidal sprays to which nutrients the crop prevents application of fertilizer to the soil but permits its application to the leaves from a high clearance sprayer or from a helicopter.
+Difficulties (disadvantages) associated with this method are:
+i) Leaf burn on scorching may occur, if strong solutions used.
+ii) Small quantities of nutrients can be applied in one single spray due to low concentrations.
+iii) Several applications are needed for moderate to high fertilizer doses,   and
+iv) Costly method than soil application.
+3. Direct application to the soil: With the help of special equipment, anhydrous ammonia (a liquid under high pressure up to 200 PSI or more) and N solutions are directly applied to the soil. It allows direct utilization of the cheapest N source. Plant injury or wastage of ammonia is very little if the material is applied 10cm below the seed. Otherwise, the N from ammonia will be lost. If requires moisture content at field capacity and good soil tilth.
+4. Application through irrigation water: Straight and mixed fertilizers containing N, P and K easily soluble in water, are allowed to dissolve in the irrigation stream. The nutrients are thus carried in solutions. This saves the application cost and allows the utilization of relatively in expensive soluble fertilizers, like N-ous fertilizers.
+
+    </string>
+    <string name="agri_loan">Agricultural Loans in India</string>
+    <string name="agri_loan_theory">
+        Agriculture is the backbone of Indian economy and it definitely comes as no surprise to see financial institutions offer monetary aid to farmers all across the country. Agricultural loans are available for different kinds of farming-related activities.
+Types of Agricultural Loans in India
+One can avail a loan for the following activities related to agriculture:
+Running day to day operations
+Buying farm machinery such as tractors, harvesters, et cetera
+Purchasing land
+Storage purposes
+Product marketing loans
+Expansion
+Moreover, these financial aids can be offered in form of grants and subsidies too, which are usually meant to protect the farmer in an event of crop damage or loss of crops.
+Agricultural loans in India are not only offered to farmers working towards the cultivation of food crops, but they are available to anyone who is engaged in other agriculture-related sectors like horticulture, aquaculture, animal husbandry, silk farming, apiculture and floriculture.
+        National Bank for Agriculture and Rural Development (NABARD)
+In India, all premier banking and financial organisations, at all levels, offer a great deal of financial help to farmers. However, this trend of boosting the rural economy and agriculture through financial credit was started by the National Bank for Agriculture and Rural Development (NABARD) back in the early 1980s. When it comes to credit in the field of agriculture, all other banks throughout the country fall under the purview of the NABARD.
+This financial institution is working in conjunction with the Government of India to boost agriculture sector. It is credited with several innovative schemes that have immensely aided the farmers throughout the country. The most notable scheme launched by the NABARD is the Kisan Credit Card (KCC).
+Kisan Credit Card Scheme
+The Kisan Credit Card is a scheme launched by the Indian banks back in 1998, as a way to fulfill the financial necessities of the agricultural sector. This is done by giving monetary support to farmers, which in turn comes with various features and benefits. The quantum of the loan depends on several factors like cost of cultivation, farm maintenance cost, et cetera.
+This has been particularly beneficial for those farmers who are not aware of the banking practices. Moreover, it is meant to protect farmers from harsh and informal creditors, which may land them in a massive debt.
+The farmers can use the KCC card to withdraw funds for the purpose of crop production and domestic requirements.
+Applying for the KCC is a simple, hassle-free process that requires minimal documentation. It also offers crop insurance coverage, along with subsidies on interest payments. Speaking of interest, farmers applying for loans under the KCC scheme can borrow funds at 7 percent per annum, for amounts up to Rs. 3 lakh.
+The Kisan Credit Card is linked to the farmer’s savings account and all the transactions are done under a single account. Additionally, any credit balance in the KCC account earns interest.
+        Other Similar Types of Agricultural Loan Schemes
+The NABARD has also helped greatly in developing a couple of other schemes, targeting specific sectors. A few of them are listed below:
+Dairy Entrepreneurship Development Scheme: This scheme is meant to promote the dairy sector, specifically by setting up modernized dairy farms, promoting calf rearing, provide infrastructure, upgrading logistical operations to improve the product on a commercial scale, and generate self-employment.
+Rural Godowns: The main objective of this scheme is to help farmers throughout the country by providing them with godowns. This will, in turn, improve their holding capacity drastically and as a result, they will be able to sell their produce at fair rates, rather than selling them under distress. In addition to this, with a nationalised warehouse system in place, the marketing of agricultural produce becomes simpler.
+Loan Against Warehouse Receipts: Warehouse receipt financing serves as a foolproof way to prevent distress sales. When a farmer needs funds, post-harvest, all he has to do is store his produce in a Warehousing Development and Regulatory Authority (WDRA) accredited warehouse, which in turn issues him a receipt. This warehouse receipt mentions important details like quality and quantity of the produce, and can be used to get credit from banks, up to 70 percent of the collateral value.
+Solar Schemes: These schemes were implemented in order to reduce dependence on grid power by promoting the use of solar equipment. The idea here is to replace diesel pumps with solar ones, considering that they have low operating costs and are environment-friendly.
+
+
+        https://www.bankbazaar.com/home-loan/types-of-agricultural-loans-in-india.html#hungry-for-more
+
+    </string>
+    <string name="organic_certi">Organic Farming Certification In India</string>
+    <string name="organic_certi_theory">
+        Organic certification is a certification process for producers of organic food and other organic agricultural products. In general, any business directly involved in food production can be certified, including seed suppliers, farmers, food processors, retailers and restaurants. A lesser known counterpart is certification for organic textiles (or Organic clothing) that includes certification of textile products made from organically grown fibres.
+Requirements vary from country to country (List of countries with organic agriculture regulation), and generally involve a set of production standards for growing, storage, processing, packaging and shipping that include:
+avoidance of synthetic chemical inputs (e.g. fertilizer, pesticides, antibiotics, food additives), irradiation, and the use of sewage sludge;[1]
+avoidance of genetically modified seed;
+use of farmland that has been free from prohibited chemical inputs for a number of years (often, three or more);
+for livestock, adhering to specific requirements for feed, housing, and breeding;
+keeping detailed written production and sales records (audit trail);
+maintaining strict physical separation of organic products from non-certified products;
+undergoing periodic on-site inspections.
+In some countries, certification is overseen by the government, and commercial use of the term organic is legally restricted. Certified organic producers are also subject to the same agricultural, food safety and other government regulations that apply to non-certified producers.
+Certified organic foods are not necessarily pesticide-free, as certain pesticides are allowed.[
+
+        https://www.agrifarming.in/organic-farming-certification-in-india
+    </string>
+    <string name="tractor_subsidy">Tractor Subsidy, Bank Loan, Eligibility, Schemes, Process </string>
+    <string name="tractor_subsidy_theory">
+        Importance of Tractor In Agriculture. Bank Loans And Subsidies for Tractors in India: Tractor subsidy in Telangana and Loans: Telangana Yantra Laxmi Scheme: this scheme comes under Farm Mechanization Scheme, this scheme offers 50% subsidy to the farmers for purchasing the tractors and other farm equipment along with a loan for reaming 50%
+
+https://www.agrifarming.in/tractor-subsidy-bank-loan-eligibility-schemes-process/
+    </string>
+
+
+    <string name="know">KNOW MORE</string>
+
+    <string name="title_activity_harvest">harvest</string>
+    <string name="title_activity_m_organic_production">mOrganic_production</string>
+    <string name="title_activity_o_fertiliser">oFertiliser</string>
+    <string name="title_activity_credit">credit</string>
+    <string name="title_activity_liq">liq</string>
+    <string name="title_activity_liquid">liquid</string>
+    <string name="title_activity_kisan">kisan</string>
+    <string name="title_activity_drone">drone</string>
+    <string name="title_activity_agri">agri</string>
+    <string name="title_activity_harvesting">harvesting</string>
+    <string name="title_activity_tractor">tractor</string>
+    <string name="title_activity_dronespray">dronespray</string>
+    <string name="title_activity_schemes">schemes</string>
+    <string name="title_activity_ocerti">ocerti</string>
+    <string name="title_activity_subsidy">subsidy</string>
+    <string name="title_activity_awa">awa</string>
+
+    <string name="bchoose">Mode of Rating</string>
+    <string-array name="bratearray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+</resources>

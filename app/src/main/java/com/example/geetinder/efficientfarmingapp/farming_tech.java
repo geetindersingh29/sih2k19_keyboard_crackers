@@ -1,0 +1,13 @@
+package com.example.geetinder.efficientfarmingapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class farming_tech extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_farming_tech);
+    }
+}

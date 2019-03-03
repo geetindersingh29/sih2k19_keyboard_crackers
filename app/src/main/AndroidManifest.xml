@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geetinder.efficientfarmingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".orderList"></activity>
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AccountActivity.LoginActivity" />
+        <activity android:name=".AccountActivity.SignupActivity" />
+        <activity android:name=".AccountActivity.ResetPassword" />
+        <activity android:name=".buyorsell" />
+        <activity android:name=".seller" />
+        <activity android:name=".uploadproduct" />
+        <activity android:name=".specifications" />
+        <activity android:name=".buyersecond" />
+        <activity android:name=".buyerthird" />
+        <activity android:name=".buyerorderdate" />
+
+        <service android:name=".MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".sellerorder" />
+        <activity android:name=".tech" />
+        <activity android:name=".PayTm" />
+        <activity android:name=".Cardpay" />
+        <activity android:name=".login_using_phonenumber" />
+        <activity android:name=".FillDetails" />
+        <activity
+            android:name=".farming_tech_1.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.farming_tech.ScrollingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".machine.Machine_tech"
+            android:label="@string/title_activity_machine_tech"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.machine.Machine_tech" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loan.Loan_activity"
+            android:label="@string/title_activity_loan_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.loan.Loan_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".soil_types.soil_tech"
+            android:label="@string/title_activity_soil_tech"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.soil_types.soil_tech" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mOrganic_production.mOrganic_production"
+            android:label="@string/title_activity_m_organic_production"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.mOrganic_production.mOrganic_production" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oFertiliser_1.oFertiliser"
+            android:label="@string/title_activity_o_fertiliser"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.oFertiliser.oFertiliser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fertiliser.liquid"
+            android:label="@string/title_activity_liquid"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.fertiliser.liquid" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".credit.kisan"
+            android:label="@string/title_activity_kisan"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.credit.kisan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".drone_tech.drone"
+            android:label="@string/title_activity_drone"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.drone_tech.drone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".robo.agri"
+            android:label="@string/title_activity_agri"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.robo.agri" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hmachines.harvesting"
+            android:label="@string/title_activity_harvesting"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.hmachines.harvesting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".market.tractor"
+            android:label="@string/title_activity_tractor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.market.tractor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tech_1.dronespray"
+            android:label="@string/title_activity_dronespray"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.tech.dronespray" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sloan.schemes"
+            android:label="@string/title_activity_schemes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.sloan.schemes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fication.ocerti"
+            android:label="@string/title_activity_ocerti"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.fication.ocerti" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".stractor.subsidy"
+            android:label="@string/title_activity_subsidy"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.stractor.subsidy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ngo.awa"
+            android:label="@string/title_activity_awa"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.geetinder.efficientfarmingapp.ngo.awa" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FillAddress" />
+        <activity android:name=".addproduct" />
+        <activity android:name=".buyerfinaldetails" />
+        <activity android:name=".seller_product" />
+        <activity android:name=".chat" />
+        <activity android:name=".rating" />
+        <activity android:name=".ratingbuyer" />
+    </application>
+
+</manifest>
