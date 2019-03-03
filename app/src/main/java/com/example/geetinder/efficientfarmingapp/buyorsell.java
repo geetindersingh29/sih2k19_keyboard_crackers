@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.bumptech.glide.load.engine.Resource;
 import com.example.geetinder.efficientfarmingapp.AccountActivity.LoginActivity;
 import com.example.geetinder.efficientfarmingapp.AccountActivity.ResetPassword;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Locale;
 
@@ -219,26 +220,8 @@ public class buyorsell extends AppCompatActivity {
             case R.id.delete_acc:
             {
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(buyorsell.this);
-                builder.setMessage("Are you sure you want to delete your account?")
-                        .setCancelable(false)
-
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(buyorsell.this,"Account has been selected",Toast.LENGTH_SHORT).show();
-                            }
-
-                        })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.cancel();
-                            }
-                        });
-                AlertDialog delete =builder.create();
-                delete.setTitle("Delete Account");
-                delete.show();
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(buyorsell.this,LoginActivity.class));
             }
 
             break;

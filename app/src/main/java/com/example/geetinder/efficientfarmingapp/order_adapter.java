@@ -36,17 +36,17 @@ public class order_adapter extends ArrayAdapter<orders> {
             orders currentorder = (orders) getItem(position);
 
 
-            ((TextView) listItemView.findViewById(R.id.order_oid)).setText("Order id : "+currentorder.getOid());
-            ((TextView) listItemView.findViewById(R.id.order_pid)).setText("Product : "+currentorder.getPid());
-            ((TextView) listItemView.findViewById(R.id.order_bid)).setText("Buyer : "+currentorder.getBid());
-            ((TextView) listItemView.findViewById(R.id.order_sid)).setText("Seller : "+currentorder.getSid());
-            ((TextView) listItemView.findViewById(R.id.order_startdate)).setText("Start Date : "+currentorder.getDatestart());
-            ((TextView) listItemView.findViewById(R.id.order_enddate)).setText("End Date : "+currentorder.getDateend());
-            ((TextView) listItemView.findViewById(R.id.order_amount)).setText("Amount : "+currentorder.getAmount());
-            ((TextView) listItemView.findViewById(R.id.order_sellerrating)).setText("Seller Rating : "+currentorder.getSellerrating());
-            ((TextView) listItemView.findViewById(R.id.order_buyerrating)).setText("Buyer Rating : "+currentorder.getBuyerrating());
-            ((TextView) listItemView.findViewById(R.id.order_productrating)).setText("Product Rating : "+currentorder.getProductrating());
-            ((TextView) listItemView.findViewById(R.id.order_status)).setText("Status : "+currentorder.getOrderstatus());
+            ((TextView) listItemView.findViewById(R.id.order_oid)).setText(currentorder.getOid()+"");
+            ((TextView) listItemView.findViewById(R.id.order_pid)).setText(currentorder.getPid()+"");
+            ((TextView) listItemView.findViewById(R.id.order_bid)).setText(currentorder.getBid()+"");
+            ((TextView) listItemView.findViewById(R.id.order_sid)).setText(currentorder.getSid()+"");
+            ((TextView) listItemView.findViewById(R.id.order_startdate)).setText(currentorder.getDatestart()+"");
+            ((TextView) listItemView.findViewById(R.id.order_enddate)).setText(currentorder.getDateend()+"");
+            ((TextView) listItemView.findViewById(R.id.order_amount)).setText(currentorder.getAmount()+"");
+            ((TextView) listItemView.findViewById(R.id.order_sellerrating)).setText(currentorder.getSellerrating()+"");
+            ((TextView) listItemView.findViewById(R.id.order_buyerrating)).setText(currentorder.getBuyerrating()+"");
+            ((TextView) listItemView.findViewById(R.id.order_productrating)).setText(currentorder.getProductrating()+"");
+            ((TextView) listItemView.findViewById(R.id.order_status)).setText(currentorder.getOrderstatus()+"");
             return listItemView;
 
         }

@@ -6,8 +6,28 @@
 
     <item android:title="Logout"
         android:id="@+id/edit_account"></item>
+
     <item android:id="@+id/notify"
-        android:icon="@drawable/ic_add_alert_black_24dp"
-        android:title="Technologies"
-        app:showAsAction="ifRoom"></item>
+
+        android:title="Filter"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item android:id="@+id/location"
+                android:title="Location"
+
+                app:showAsAction="never"></item>
+            <item android:id="@+id/price"
+                android:title="Price"
+
+                app:showAsAction="never"></item>
+            <item android:id="@+id/both"
+                android:title="Both"
+
+                app:showAsAction="never"></item>
+
+
+        </menu>
+    </item>
 </menu>
+

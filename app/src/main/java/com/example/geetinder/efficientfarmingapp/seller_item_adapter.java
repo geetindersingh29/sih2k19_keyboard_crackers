@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.Target;
 
 import java.util.List;
 import java.util.logging.Filter;
@@ -33,10 +34,10 @@ public class seller_item_adapter extends ArrayAdapter<Item> {
             //Find the item at the given position in the list of items
             Item currentItem = (Item) getItem(position);
 
-            ImageView image = (ImageView) listItemView.findViewById(R.id.image);
+            ImageView image = (ImageView) listItemView.findViewById(R.id.imageView2);
 
             if(image!=null){
-                Glide.with(getContext()).load(currentItem.getmImageUrl()).into(image);
+                Glide.with(getContext()).load(currentItem.getmImageUrl()).override(Target.SIZE_ORIGINAL).into(image);
             }
 
             TextView type = (TextView) listItemView.findViewById(R.id.type_seller);

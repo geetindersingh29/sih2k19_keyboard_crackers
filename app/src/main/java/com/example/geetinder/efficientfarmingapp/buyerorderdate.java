@@ -53,7 +53,7 @@ public class buyerorderdate extends AppCompatActivity {
     long spinnerItemid;
     long one = 1;
     long two = 2;
-    String sID,bID,pID,id;
+    String sID, bID, pID, id;
 
     private static final String TAG = "selectdate";
     private DatabaseReference rootref;
@@ -77,6 +77,7 @@ public class buyerorderdate extends AppCompatActivity {
     private long totalPrice;
     private int pricePerDay;
     private int deposit;
+    private TextView numberofdays, priceperday, baseprice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,9 +92,11 @@ public class buyerorderdate extends AppCompatActivity {
         mTotalPrice = findViewById(R.id.price_id);
         s = findViewById(R.id.paymode);
         depositShow = findViewById(R.id.deposit);
-        //depositShow.setText(DataModel.deposit);
-
-
+//        if (depositShow != null)
+            depositShow.setText(DataModel.deposit+"");
+        numberofdays = findViewById(R.id.nods);
+        priceperday = findViewById(R.id.ppds);
+        baseprice = findViewById(R.id.baseprice);
 
 
         submit = findViewById(R.id.submit);
@@ -227,6 +230,10 @@ public class buyerorderdate extends AppCompatActivity {
                             totalPrice = (long) pricePerDay * days;
                             totalPrice += deposit;
                             mTotalPrice.setText(String.valueOf(totalPrice));
+
+                            numberofdays.setText(days + "");
+                            priceperday.setText(pricePerDay+"");
+                            baseprice.setText((long) pricePerDay * days + "");
                         }
                     }
 
@@ -251,11 +258,11 @@ public class buyerorderdate extends AppCompatActivity {
 
                     orders obj = new orders();
                     rootref = FirebaseDatabase.getInstance().getReference("order");
-                     id = rootref.push().getKey();
+                    id = rootref.push().getKey();
 
-                     bID = getIntent().getExtras().getString("bid");
-                     sID = getIntent().getExtras().getString("sid");
-                     pID = getIntent().getExtras().getString("pid");
+                    bID = getIntent().getExtras().getString("bid");
+                    sID = getIntent().getExtras().getString("sid");
+                    pID = getIntent().getExtras().getString("pid");
 
                     obj.setOid(id);
                     obj.setBid(bID);
@@ -288,13 +295,13 @@ public class buyerorderdate extends AppCompatActivity {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     Intent intent1 = new Intent(buyerorderdate.this, buyerfinaldetails.class);
-                                    intent1.putExtra("sid",sID);
-                                    intent1.putExtra("bid",bID);
-                                    intent1.putExtra("pid",pID);
-                                    intent1.putExtra("oid",id);
-                                    intent1.putExtra("rtdate",returndate.getText().toString());
-                                    intent1.putExtra("reqdate",requireddate.getText().toString());
-                                    intent1.putExtra("amount",mTotalPrice.getText().toString());
+                                    intent1.putExtra("sid", sID);
+                                    intent1.putExtra("bid", bID);
+                                    intent1.putExtra("pid", pID);
+                                    intent1.putExtra("oid", id);
+                                    intent1.putExtra("rtdate", returndate.getText().toString());
+                                    intent1.putExtra("reqdate", requireddate.getText().toString());
+                                    intent1.putExtra("amount", mTotalPrice.getText().toString());
                                     startActivity(intent1);
                                 }
 
